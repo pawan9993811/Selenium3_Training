@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15856" started-at="2017-01-01T16:04:16Z" finished-at="2017-01-01T16:04:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15856" started-at="2017-01-01T16:04:16Z" finished-at="2017-01-01T16:04:31Z">
+      <class name="TestNg_DataProvider.DataProviderTest">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:TestNg_DataProvider.DataProviderTest@1e88b3c]" name="test" duration-ms="9020" started-at="2017-01-01T21:34:16Z" data-provider="Authentication" finished-at="2017-01-01T21:34:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:TestNg_DataProvider.DataProviderTest@1e88b3c]" name="test" duration-ms="6817" started-at="2017-01-01T21:34:25Z" data-provider="Authentication" finished-at="2017-01-01T21:34:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TestNg_DataProvider.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
