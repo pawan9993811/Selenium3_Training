@@ -41,7 +41,9 @@ public class Extent_Reports_Demo {
  public void VerifyHome() throws IOException{
  
  //Initiate Extent Reports
+	
  reports=new ExtentReports(System.getProperty("user.dir")+"\\Report\\results.html",true);
+ System.out.println(System.getProperty("user.dir"));
  
  //Declare Start test name
  ExtentTest test = reports.startTest("Verify Home page"); 
@@ -67,6 +69,7 @@ public class Extent_Reports_Demo {
  } 
   //Ending the Test
  reports.endTest(test); 
+ 
  //writing everything to document
  reports.flush();
  driver.close();  

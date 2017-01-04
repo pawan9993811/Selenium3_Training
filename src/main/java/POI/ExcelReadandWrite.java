@@ -20,6 +20,7 @@ public static String Value ="Hi";
 
 @Test 
 public static void Test1() throws InvalidFormatException, IOException {
+	
 	setCellVal(fileName, SheetName, rowNum, colName, Value);
 	System.out.println("Value is set");
 	
@@ -30,11 +31,13 @@ public static void Test1() throws InvalidFormatException, IOException {
 
 	
 	public static void setCellVal(String fileName,String SheetName,int rowNum,int colName,String Value) throws InvalidFormatException, IOException {
+		
 		FileInputStream fs = new FileInputStream(fileName);
 		Workbook wb = WorkbookFactory.create(fs);
 		wb.getSheet(SheetName).createRow(rowNum).createCell(colName).setCellValue(Value);
 		FileOutputStream fos = new FileOutputStream(fileName);
 		wb.write(fos);
+	
 	}
 	
 	public static String getCellVal(String fileName,String SheetName,int rowNum,int colName,String Value) throws InvalidFormatException, IOException {

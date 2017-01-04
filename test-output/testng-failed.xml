@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNg_DataProvider.DataProviderTest">
+      <class name="TestNg_DataProvider.TestngParameters">
         <methods>
           <include name="test"/>
-          <include name="onTestFailure"/>
         </methods>
-      </class> <!-- TestNg_DataProvider.DataProviderTest -->
+      </class> <!-- TestNg_DataProvider.TestngParameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
